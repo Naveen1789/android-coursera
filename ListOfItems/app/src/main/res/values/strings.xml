@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ListOfItems</string>
+    <string name="main_header">Pick an item!</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="elephant">Elephant</string>
+    <string name="horse">Horse</string>
+    <string name="lion">Lion</string>
+
+    <string-array name="animals">
+        <item>@string/cat</item>
+        <item>@string/dog</item>
+        <item>@string/elephant</item>
+        <item>@string/horse</item>
+        <item>@string/lion</item>
+    </string-array>
+    <string name="toast_header">You picked</string>
+</resources>

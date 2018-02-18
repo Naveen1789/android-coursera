@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nnarayan.convertmilestokm.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="192dp"
+        android:text="Miles"
+        app:layout_constraintEnd_toStartOf="@+id/editTextMiles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewMiles"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewKms"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="51dp"
+        android:text="kms"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConvertMilesToKms"
+        app:layout_constraintEnd_toStartOf="@+id/editTextkms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMiles" />
+
+    <EditText
+        android:id="@+id/editTextkms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewKms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewKms" />
+
+    <Button
+        android:id="@+id/buttonConvertMilesToKms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:text="Convert Miles to Kms"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConvertKmsToMiles"
+        app:layout_constraintStart_toStartOf="@+id/buttonConvertKmsToMiles"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKms" />
+
+    <Button
+        android:id="@+id/buttonConvertKmsToMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:text="Convert Kms to miles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonConvertMilesToKms" />
+</android.support.constraint.ConstraintLayout>

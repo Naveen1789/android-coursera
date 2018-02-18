@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de artículos</string>
+    <string name="main_header">" Elige un artículo"</string>
+    <string name="cat">Gato</string>
+    <string name="dog">Pero</string>
+    <string name="horse">Caballo</string>
+    <string name="elephant">Elefante</string>
+    <string name="toast_header">Escogiste</string>
+    <string name="lion">León</string>
+</resources>
