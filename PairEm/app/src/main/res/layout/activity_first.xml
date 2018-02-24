@@ -7,7 +7,7 @@
     tools:context="com.example.nnarayan.pairem.FirstActivity">
 
     <ListView
-        android:id="@+id/firstListViewOfActors"
+        android:id="@+id/firstListOfActors"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="15dp"
@@ -26,9 +26,10 @@
         android:layout_marginBottom="17dp"
         android:layout_marginEnd="151dp"
         android:layout_marginStart="135dp"
+        android:onClick="goToSecondActivity"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/firstListViewOfActors"
+        app:layout_constraintEnd_toEndOf="@+id/firstListOfActors"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstListViewOfActors" />
+        app:layout_constraintTop_toBottomOf="@+id/firstListOfActors" />
 </android.support.constraint.ConstraintLayout>
